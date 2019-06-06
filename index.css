@@ -49,8 +49,8 @@ ul{
     margin-right: 0;
 }
 .main-topic {
-    background-image: url(http://lorempixel.com/output/abstract-q-c-1400-600-3.jpg);
     color: rgb(0, 0, 0);
+    background-image: url(http://lorempixel.com/output/abstract-q-c-1400-600-3.jpg);
     background-position: 50% 60%;
     background-size: cover;
     display: flex;
@@ -58,6 +58,7 @@ ul{
     height: 70vh;
     justify-content: center;
     margin-bottom: 2rem;
+    
 }
 .main-topic__title {
     font-size: 3rem;
