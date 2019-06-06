@@ -24,7 +24,7 @@ ul{
 
 .main-header {
     align-items: center;
-    background-color: transparent;
+    background-color: grey;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
@@ -64,4 +64,14 @@ ul{
     font-size: 3rem;
 
 
+}
+.container {
+    margin: 0% auto;
+    max-width: 10rem;
+
+}
+.Screenshot__Images {
+    margin: 0% auto;
+    width: 10rem;
+    align-items: center
 }
