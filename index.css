@@ -12,12 +12,12 @@ html {
 
 a {
     color: rgb(0, 0, 0);
-    border: 2px solid #333333;
-    padding: .1rem 0.3rem;
+    border: 2px solid black;
+    padding: .1rem 0.1rem;
     text-decoration: none;
 }
 a:hover {
-    color: rgb(204, 1, 1);
+    color: blueviolet;
 }
 
 ul{
@@ -31,11 +31,12 @@ main > article {
     margin: 0 auto;
     max-width: 50rem;
     width: 100%;
+    padding: 1.5rem;
 }        
 
 .main-header {
     align-items: center;
-    background-color: aqua;
+    background-color: transparent;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
@@ -86,4 +87,27 @@ main > article {
     justify-content: center;
     width: 60rem;
     max-width: 100%;
+}
+
+img {
+    max-width: 80%;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.wrapper {
+    background-color: hsl(101, 100%, 50%);
+
+}
+
+footer {
+    color: red;
+    background-color: black;
+    height: 5vh;
+    
+}
+
+figure {
+    margin: 0 auto;
+    width: 20 rem;
 }
