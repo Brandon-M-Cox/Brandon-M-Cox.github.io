@@ -12,6 +12,8 @@ html {
 
 a {
     color: rgb(0, 0, 0);
+    border: 2px solid #333333;
+    padding: .1rem 0.3rem;
     text-decoration: none;
 }
 a:hover {
@@ -21,15 +23,24 @@ a:hover {
 ul{
     list-style: none;
 }
+main > article {
+    flex: 1 1 17rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 50rem;
+    width: 100%;
+}        
 
 .main-header {
     align-items: center;
-    background-color: grey;
+    background-color: aqua;
     display: flex;
     justify-content: space-between;
     margin-bottom: 2rem;
     padding: 1rem 2rem;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
@@ -48,30 +59,31 @@ ul{
 .nav__list-item:last-child {
     margin-right: 0;
 }
-.main-topic {
+
+.hero-image {
+    align-items: center;
     color: rgb(0, 0, 0);
     background-image: url(http://lorempixel.com/output/abstract-q-c-1400-600-3.jpg);
     background-position: 50% 60%;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 60vh;
     justify-content: center;
     margin-bottom: 2rem;
-    
+    background-color: aqua;
 }
-.main-topic__title {
+
+.hero-image__title {
     font-size: 3rem;
 
+}    
 
-}
-.container {
-    margin: 0% auto;
-    max-width: 10rem;
-
-}
-.Screenshot__Images {
-    margin: 0% auto;
-    width: 10rem;
-    align-items: center
+.screenshot {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60rem;
+    max-width: 100%;
 }
