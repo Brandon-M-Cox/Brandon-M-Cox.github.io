@@ -12,15 +12,27 @@ html {
 
 a {
     color: rgb(0, 0, 0);
+    border: 2px solid black;
+    padding: .1rem 0.1rem;
     text-decoration: none;
 }
 a:hover {
-    color: rgb(204, 1, 1);
+    color: blueviolet;
 }
 
 ul{
     list-style: none;
 }
+main > article {
+    flex: 1 1 17rem;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 50rem;
+    width: 100%;
+    padding: 1.5rem;
+}        
 
 .main-header {
     align-items: center;
@@ -29,7 +41,7 @@ ul{
     justify-content: space-between;
     margin-bottom: 2rem;
     padding: 1rem 2rem;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
@@ -48,19 +60,54 @@ ul{
 .nav__list-item:last-child {
     margin-right: 0;
 }
-.main-topic {
-    background-image: url(http://lorempixel.com/output/abstract-q-c-1400-600-3.jpg);
+
+.hero-image {
+    align-items: center;
     color: rgb(0, 0, 0);
+    background-image: url(http://lorempixel.com/output/abstract-q-c-1400-600-3.jpg);
     background-position: 50% 60%;
     background-size: cover;
     display: flex;
     flex-direction: column;
-    height: 70vh;
+    height: 60vh;
     justify-content: center;
     margin-bottom: 2rem;
+    background-color: aqua;
 }
-.main-topic__title {
+
+.hero-image__title {
     font-size: 3rem;
 
+}    
 
+.screenshot {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60rem;
+    max-width: 100%;
+}
+
+img {
+    max-width: 80%;
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+.wrapper {
+    background-color: hsl(101, 100%, 50%);
+
+}
+
+footer {
+    color: red;
+    background-color: black;
+    height: 5vh;
+    
+}
+
+figure {
+    margin: 0 auto;
+    width: 20 rem;
 }
