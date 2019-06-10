@@ -90,7 +90,7 @@ main > article {
 }
 
 img {
-    max-width: 80%;
+    max-width: 70%;
     margin-bottom: 1.5rem;
     border: none;
 }
@@ -115,3 +115,5 @@ figure {
 article {
     margin-bottom: 5rem;
 }
+
+
