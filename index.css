@@ -31,7 +31,7 @@ main > article {
     margin: 0 auto;
     max-width: 50rem;
     width: 100%;
-    padding: 1.5rem;
+    padding: 5rem;
 }        
 
 .main-header {
@@ -109,5 +109,9 @@ footer {
 
 figure {
     margin: 0 auto;
-    width: 20 rem;
+    width: 30 rem;
+}
+
+article {
+    margin-bottom: 5rem;
 }
