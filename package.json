@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --colors",
-    "start": "parcel index.html"
+    "test": "jest --colors --coverage",
+    "start": "parcel *.html"
   },
   "repository": {
     "type": "git",
